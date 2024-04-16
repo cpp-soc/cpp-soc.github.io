@@ -9,7 +9,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to Cal Poly Pomona - Security Operations Center!
-          test
         </p>
         <a
           className="App-link"
