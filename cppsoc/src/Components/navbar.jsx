@@ -4,9 +4,8 @@ function NavBar() {
     return (
       <nav>
         <Link to={"./"}>Home </Link>
-        <Link to={"./Team"}>Team </Link>
-        <Link to={"./FAQ"}>FAQ </Link>
-        <Link to={"./Sponsors"}>Contact Us! </Link>
+        <Link to={"./Projects"}>Projects </Link>
+{/* w */}
       </nav>
     );
   }
