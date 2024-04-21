@@ -29,6 +29,12 @@ export const teamData = [
         img: "https://eb75zekerce.exactdn.com/wp-content/uploads/2022/03/The-Roles-Of-A-Webmaster-What-Does-A-Webmaster-Do-.jpg?lossy=0&sharp=1&ssl=1",
         bio: "TBA",
     },
+    {
+        id: 4,
+        name: "Webmaster",
+        img: "https://eb75zekerce.exactdn.com/wp-content/uploads/2022/03/The-Roles-Of-A-Webmaster-What-Does-A-Webmaster-Do-.jpg?lossy=0&sharp=1&ssl=1",
+        bio: "TBA",
+    },
 ];
 
 export default teamData;
