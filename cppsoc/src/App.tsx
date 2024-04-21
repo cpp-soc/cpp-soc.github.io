@@ -1,25 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import NavBar from './Components/navbar';
+import './Styles/main.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Cal Poly SOC
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <NavBar/>
+      <h1 className="Welcome">
+        Welcome to Cal Poly Pomona's Security Operation Center
+      </h1>
     </div>
+
   );
 }
 
