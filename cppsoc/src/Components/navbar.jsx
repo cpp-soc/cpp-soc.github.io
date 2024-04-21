@@ -8,7 +8,7 @@ function NavBar() {
         <Link to={"./FAQ"}>FAQ </Link>
         <Link to={"./Sponsors"}>Contact Us! </Link>
       </nav>
-    )
+    );
   }
   
 export default NavBar
