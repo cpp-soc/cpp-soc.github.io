@@ -1,13 +1,16 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
-    return (
-      <nav>
-        <Link to={"./"}>Home </Link>
-        <Link to={"./Projects"}>Projects </Link>
-{/* w */}
-      </nav>
-    );
-  }
-  
-export default NavBar
+  return (
+    <nav>
+      <NavLink to={"./"} activeClassName="active">Home </NavLink>
+      <NavLink to={"./Projects"} activeClassName="active">Projects </NavLink>
+      <NavLink to={"./Team"} activeClassName="active">Team </NavLink>
+      <NavLink to={"./FAQ"} activeClassName="active">FAQ </NavLink>
+      <NavLink to={"./Contact"} activeClassName="active">Contact </NavLink>
+      {/* Add more NavLink components for other navigation items */}
+    </nav>
+  );
+}
+
+export default NavBar;

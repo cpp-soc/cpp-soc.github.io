@@ -1,0 +1,32 @@
+/* Style for the navigation container */
+nav {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    background-color: rgba(0,0,0,0.9); /* Adjust background color */
+    padding: 10px;
+  }
+  
+  /* Style for each navigation button */
+  nav a {
+    text-decoration: none;
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect */
+  nav a:hover {
+    background-color: #ddd; /* Hover background color */
+    color: black;
+  }
+  
+  /* Active link style */
+  nav a.active {
+    background-color: #007bff; /* Active background color */
+    color: #fff; /* Active text color */
+    border-color: #007bff; /* Active border color */
+  }
+  

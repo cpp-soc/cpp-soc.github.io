@@ -6,7 +6,6 @@ function Projects() {
   return (
     <>
       <div className="container">
-        This page will be used to showcase SOC's active projects
       </div>
       <div className="ProjectGrid">
         {teamData.map((team, index) => (
