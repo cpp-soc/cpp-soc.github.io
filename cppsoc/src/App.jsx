@@ -33,7 +33,7 @@ function App() {
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-        <div className="foot">{/* <Footer/> */}</div>
+        <div className="foot">{}</div>
       </Router>
     </>
   );
