@@ -13,9 +13,9 @@ import FAQ from "./Pages/FAQ";
 import Contact from "./Pages/Contact";
 
 /* CSS */
-import "./styles/main.css";
-import "./styles/Projects.css";
-import "./styles/navbar.css";
+import "./Styles/main.css";
+import "./Styles/Projects.css";
+import "./Styles/navbar.css";
 
 function App() {
   return (
