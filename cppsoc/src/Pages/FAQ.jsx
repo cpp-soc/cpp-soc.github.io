@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Styles/FAQ.css'; // Adjust the path to point to the correct location
 
 const faqItems = [
@@ -37,17 +37,28 @@ const faqItems = [
 ];
 
 const FAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const handleQuestionClick = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
-    <>
-      <div className="faq-container">
-        {faqItems.map((item, index) => (
-          <div className="faq-item" key={index}>
-            <div className="question-bubble">{item.question}</div>
-            <div className="answer-bubble">{item.answer}</div>
+    <div className="faq-container">
+      <h1>Frequently Asked Questions</h1>
+      {faqItems.map((item, index) => (
+        <div className={`faq-item ${activeIndex === index ? 'active' : ''}`} key={index}>
+          <div className="question-bubble" onClick={() => handleQuestionClick(index)}>
+            {item.question}
           </div>
-        ))}
-      </div>
-    </>
+          {activeIndex === index && (
+            <div className="answer-dropdown">
+              {item.answer}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
   );
 };
 
