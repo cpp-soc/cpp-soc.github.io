@@ -1,0 +1,35 @@
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 20px; /* Add padding to the container */
+}
+
+.faq-item {
+  display: flex;
+  width: 100%; /* Make the items stretch to the edge */
+  max-width: 800px; /* Limit the width of the bubbles */
+  margin-bottom: 20px;
+}
+
+.question-bubble,
+.answer-bubble {
+  flex: 1; /* Make both bubbles take up equal space */
+  padding: 20px; /* Increase padding for larger bubbles */
+  border-radius: 20px;
+  word-wrap: break-word;
+}
+
+.question-bubble {
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 10px; /* Add some space between bubbles */
+}
+
+.answer-bubble {
+  background-color: #f0f0f0;
+  color: #333;
+  margin-left: 10px; /* Add some space between bubbles */
+}
+
