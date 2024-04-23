@@ -3,6 +3,13 @@
     margin-bottom: 20px;
   }
   
+  .container-welcome{
+    display: block;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .welcome {
     padding: 50px 0;
   }
@@ -14,8 +21,8 @@
   }
   
   .welcome h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ff6347;
+    font-family:'Courier New', Courier, monospace;
+    color: rgba(0,0,0,1);
     font-size: 24px; 
   }
   
