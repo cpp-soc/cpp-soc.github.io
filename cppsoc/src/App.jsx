@@ -16,6 +16,7 @@ import Contact from "./Pages/Contact";
 import "./Styles/main.css";
 import "./Styles/Projects.css";
 import "./Styles/navbar.css";
+import "./Styles/Contact.css";
 
 function App() {
   return (
