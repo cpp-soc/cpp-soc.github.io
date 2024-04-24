@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cpp-soc.github.io/static/css/main.04a0a207.css",
-    "main.js": "/cpp-soc.github.io/static/js/main.ba6bf466.js",
+    "main.css": "/cpp-soc.github.io/static/css/main.6b728f70.css",
+    "main.js": "/cpp-soc.github.io/static/js/main.49b87d03.js",
     "static/js/453.4c965f3f.chunk.js": "/cpp-soc.github.io/static/js/453.4c965f3f.chunk.js",
     "index.html": "/cpp-soc.github.io/index.html",
-    "main.04a0a207.css.map": "/cpp-soc.github.io/static/css/main.04a0a207.css.map",
-    "main.ba6bf466.js.map": "/cpp-soc.github.io/static/js/main.ba6bf466.js.map",
+    "main.6b728f70.css.map": "/cpp-soc.github.io/static/css/main.6b728f70.css.map",
+    "main.49b87d03.js.map": "/cpp-soc.github.io/static/js/main.49b87d03.js.map",
     "453.4c965f3f.chunk.js.map": "/cpp-soc.github.io/static/js/453.4c965f3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a0a207.css",
-    "static/js/main.ba6bf466.js"
+    "static/css/main.6b728f70.css",
+    "static/js/main.49b87d03.js"
   ]
 }
