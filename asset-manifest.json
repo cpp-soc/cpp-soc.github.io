@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cpp-soc.github.io/static/css/main.54e59cb9.css",
-    "main.js": "/cpp-soc.github.io/static/js/main.43fc2e71.js",
+    "main.js": "/cpp-soc.github.io/static/js/main.aa104bea.js",
     "static/js/453.4c965f3f.chunk.js": "/cpp-soc.github.io/static/js/453.4c965f3f.chunk.js",
     "index.html": "/cpp-soc.github.io/index.html",
     "main.54e59cb9.css.map": "/cpp-soc.github.io/static/css/main.54e59cb9.css.map",
-    "main.43fc2e71.js.map": "/cpp-soc.github.io/static/js/main.43fc2e71.js.map",
+    "main.aa104bea.js.map": "/cpp-soc.github.io/static/js/main.aa104bea.js.map",
     "453.4c965f3f.chunk.js.map": "/cpp-soc.github.io/static/js/453.4c965f3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54e59cb9.css",
-    "static/js/main.43fc2e71.js"
+    "static/js/main.aa104bea.js"
   ]
 }
