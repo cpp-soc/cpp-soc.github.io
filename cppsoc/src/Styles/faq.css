@@ -1,0 +1,61 @@
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 20px; /* Add padding to the container */
+}
+
+h1 {
+  align-items: left;
+  margin-bottom: 20px; /* Add space between title and FAQ items */
+}
+
+.faq-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Make the items stretch to the edge */
+  max-width: 625px; /* Limit the width of the bubbles */
+  margin-bottom: 20px;
+}
+
+.question-bubble {
+  flex: 1;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px; /* Increase padding for larger bubbles */
+  border-radius: 20px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: relative;
+}
+
+.question-bubble::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 20px; /* Adjust this value to control the position of the arrow */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 10px 0 10px; /* Adjust these values to control the size of the arrow */
+  border-color: #fff transparent transparent transparent;
+}
+
+.faq-item.active .question-bubble::after {
+  border-width: 0 10px 8px 10px;  /* Change arrow direction */
+  border-color: transparent transparent #fff transparent;
+}
+.answer-dropdown {
+  display: flex; /* Initially hide the answer dropdown */
+  flex: 1;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.faq-item.active .answer-dropdown {
+  display: block; /* Show the answer dropdown when active */
+}
+
