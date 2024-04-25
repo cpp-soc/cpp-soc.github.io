@@ -17,6 +17,7 @@ import "./Styles/main.css";
 import "./Styles/Projects.css";
 import "./Styles/navbar.css";
 import "./Styles/Contact.css";
+import "./Styles/faq.css";
 
 function App() {
   return (

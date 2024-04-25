@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../Styles/FAQ.css'; // Adjust the path to point to the correct location
 
 const faqItems = [
   {
