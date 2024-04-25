@@ -53,6 +53,7 @@ h1 {
   color: #333;
   padding: 20px;
   border-radius: 20px;
+  margin-top: 10px;
 }
 
 .faq-item.active .answer-dropdown {
